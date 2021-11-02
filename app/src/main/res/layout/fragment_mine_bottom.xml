@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20px"
+    >
+
+    <RelativeLayout
+        android:background="@drawable/tem1"
+        android:layout_width="800px"
+        android:layout_height="600px"
+        android:layout_marginLeft="140px">
+
+        <ImageView
+            android:id="@+id/image_mine_person"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:src="@drawable/tem3" />
+        <ImageView
+            android:id="@+id/button_activity_content"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:background="@color/teal_200"
+            android:layout_marginLeft="680px"
+            android:layout_marginTop="50px"
+            />
+
+        <TextView
+            android:id="@+id/mine_activity_pname"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="140px"
+            android:layout_marginTop="20px"
+            android:text="name"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/mine_activity_data"
+            android:layout_width="100dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="140px"
+            android:layout_marginTop="95px"
+            android:text="2002.1.1"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/mine_activity_content"
+            android:layout_marginLeft="50px"
+            android:layout_width="700px"
+            android:layout_height="28dp"
+            android:textSize="20dp"
+            android:layout_marginTop="150px"
+            android:text="活动内容活动内容活动内容"/>
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="240px"
+            android:layout_marginLeft="50px"
+            android:id="@+id/mine_activity_image1"
+            android:src="@drawable/tem1"/>
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="240px"
+            android:layout_marginLeft="270px"
+            android:id="@+id/mine_activity_image2"
+            android:src="@drawable/tem1"/>
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="240px"
+            android:layout_marginLeft="490px"
+            android:id="@+id/mine_activity_image3"
+            android:src="@drawable/tem1"/>
+        <TextView
+            android:id="@+id/mine_activity_location"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:textSize="15dp"
+            android:layout_marginTop="500px"
+            android:layout_marginLeft="50px"
+            android:text="内蒙古科技大学"
+            />
+        <Button
+            android:id="@+id/mine_good"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:layout_marginLeft="680px"
+            android:layout_marginTop="500px"
+            android:background="@color/teal_200"
+            />
+        <TextView
+            android:id="@+id/mine_good_number"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:text="0"
+            android:layout_marginTop="500px"
+            android:layout_marginLeft="590px"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

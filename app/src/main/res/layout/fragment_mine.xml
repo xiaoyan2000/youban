@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="1080px"
+        android:layout_height="880px"
+        android:background="@mipmap/default_background">
+        <View
+            android:layout_width="1080px"
+            android:layout_height="880px"
+            android:background="@color/light_gray" />
+
+        <ImageView
+            android:id="@+id/mine_main"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="90px"
+            android:background="@mipmap/mine_main"
+            android:clickable="true"
+            android:padding="40dp" />
+
+        <ImageView
+            android:id="@+id/mine_set"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginTop="90px"
+            android:layout_marginLeft="840px"
+            android:padding="40px"
+            android:clickable="true"
+            android:background="@mipmap/mine_set"/>
+        <ImageView
+            android:layout_width="226px"
+            android:layout_height="226px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:background="@mipmap/mine_head"
+            />
+
+        <ImageView
+            android:layout_width="226px"
+            android:layout_height="226px"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/mine_head_circle"
+            android:clickable="true" />
+
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/mine_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="880px"
+        android:name="com.example.youban.mine.MineFragmentBottom"/>
+
+</RelativeLayout>
